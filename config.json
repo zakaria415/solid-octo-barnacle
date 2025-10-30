@@ -1,0 +1,25 @@
+{
+    "base_url": "http://books.toscrape.com",
+    "target_site_name": "Books To Scrape Store", 
+    "output_filename": "review_analysis_report",
+    "user_agent": "SmartPerformanceAnalystBot/1.0",
+    "selectors": {
+        "item_container": "article.product_pod",         
+        "item_title": "h3 a",                            
+        "review_text": "p.text-muted",                   
+        "review_rating": "p.star-rating",                
+        "next_page": "li.next a"                         
+    },
+    "email": {
+        "sender": "your_email@gmail.com",
+        "receiver": "recipient_email@example.com",
+        "password": "", 
+        "smtp_server": "smtp.gmail.com",
+        "smtp_port": 587
+    },
+    "api_tokens": {
+        "facebook_token": "YOUR_FACEBOOK_PAGE_ACCESS_TOKEN",
+        "facebook_page_id": "YOUR_PAGE_ID",
+        "twitter_token": "YOUR_TWITTER_BEARER_TOKEN"
+    }
+}
