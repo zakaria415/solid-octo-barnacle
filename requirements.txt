@@ -1,15 +1,12 @@
-# متطلبات واجهة المستخدم والبيانات
+# المتطلبات الأساسية للتشغيل على Streamlit Cloud
 streamlit
+google-genai
 pandas
 numpy
-# متطلبات Gemini و Sentiment Analysis
-google-genai
-nltk
-textblob
-# متطلبات قاعدة البيانات
+# متطلبات التحليل و SQLAlchemy
 sqlalchemy
-# متطلبات كشط البيانات
 aiohttp
 beautifulsoup4
-# متطلبات البيئة
+nltk
+textblob
 python-dotenv
